@@ -89,6 +89,7 @@ class MyApp extends StatelessWidget {
               ),
             ),
             scaffoldBackgroundColor: AppColors.white),
+        //cek auth
         home: FutureBuilder<bool>(
             future: AuthLocalDatasource().isAuth(),
             builder: (context, snapshot) {
