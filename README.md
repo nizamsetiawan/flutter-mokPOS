@@ -1,4 +1,4 @@
-# ekasir_app
+# mokPOS
 
 A new Flutter project.
 
